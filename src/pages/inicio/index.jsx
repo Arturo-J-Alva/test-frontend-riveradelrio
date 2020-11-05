@@ -4,7 +4,7 @@ import Layout from '../../g_components/layout'
 
 const Home = () => {
     return (
-        <Layout>
+        <Layout title="Presentación | RiberaDelRío">
             <h1 className="text-5xl text-center underline font-bold text-red-800 uppercase">Examen Frontend</h1>
             <p className="text-center text-3xl text-blue-700 animate-bounce">Programador: Arturo J. Alva</p>
             <div className="my-2 leading-7 border-t-2 border-b-2 border-blue-700 text-gray-800">

@@ -8,7 +8,7 @@ const Inicio = ({ data }) => {
     //const { Tipo } = useSelector(reducers => reducers.loginReducer);
     //console.log(data)
     return (
-        <Layout title="Home">
+        <Layout title="Membresías | RiberaDelRío">
             <h1 className=" text-6xl font-bold uppercase underline text-center text-blue-700 tracking-wide">Rivera del río</h1>
             <div >
                 <img src="/images/banner.jpg" alt="banner" className="mx-auto" />

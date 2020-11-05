@@ -6,7 +6,7 @@ import Layout from '../../../g_components/layout'
 const Cronograma = ({ data, suscripcion }) => {
     //console.log(data)
     return (
-        <Layout>
+        <Layout title={`${suscripcion} | RiberaDelRío`}>
             <h1 className="capitalize text-4xl font-bold text-center underline text-blue-700">cronograma de pagos</h1>
             <h2 className="text-2xl capitalize text-center">(Membresía: {suscripcion})</h2>
             {
